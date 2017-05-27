@@ -174,3 +174,5 @@ class LogManager(object):
         self.log_file.truncate(offset)
         self.log_idx.flush()
         self.log_file.flush()
+        
+    
