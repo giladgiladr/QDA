@@ -1,0 +1,1 @@
+pyuic4 test.ui -o test_ui.py
