@@ -18,7 +18,7 @@ class DisasmUnit(Unit):
         self.binary_unit_id = binary_unit_id
         self.processor_unit_id = processor_unit_id
         
-        self.ranges = [] # Every byte is initialy undefined.
+        self.ranges = [] # Every byte is initially undefined.
         
     # return the dict of diffs-properties for address
     def get_properties(self, addr):
@@ -81,7 +81,8 @@ DATA_TYPE_WORD = 2
 DATA_TYPE_DWORD = 3
 DATA_TYPE_QWORD = 4
 DATA_TYPE_STRING = 5
-        
+DATA_TYPE_UNDEFINE = 6
+
 STRING_TYPE_ASCII = 0
 STRING_TYPE_UNICODE = 1
 class DisasmUnitPropertyData(DisasmUnitProperty):
