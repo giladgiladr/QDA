@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/QDA/.vs/QDA/v14/.suo
+/QDA/QDA.VC.db
+/QDA/QDA.VC.VC.opendb
